@@ -277,14 +277,14 @@ final_plot <- (map_plot + plot2 +
 
 
 print(final_plot)
-ggsave("Comprehensive_Analysis_of_COVID-19-Global_Impact_Trends_and_Recovery_Patterns.png", final_plot, width = 24, height = 14, dpi = 300)
+ggsave("Comprehensive_Analysis_of_COVID-19-Global_Impact_Trends_and_Recovery_Patterns.jpg", final_plot, width = 24, height = 14, dpi = 300)
 # Save each visualization separately
-ggsave("map_plot.png", map_plot, width = 10, height = 6, dpi = 300)
-ggsave("top_10_countries.png", plot2, width = 10, height = 6, dpi = 300)
-ggsave("confirmed_cases_trend.png", plot1, width = 10, height = 6, dpi = 300)
-ggsave("daily_cases.png", plot3, width = 10, height = 6, dpi = 300)
-ggsave("recovery_vs_death_rate.png", plot4, width = 10, height = 6, dpi = 300)
-ggsave("ARIMA_Residuals.png", residual_plot, width = 10, height = 6, dpi = 300)
-ggsave("ARIMA_Residuals_ACF.png", acf_plot, width = 10, height = 6, dpi = 300)
+ggsave("map_plot.jpg", map_plot, width = 10, height = 6, dpi = 300)
+ggsave("top_10_countries.jpg", plot2, width = 10, height = 6, dpi = 300)
+ggsave("confirmed_cases_trend.jpg", plot1, width = 10, height = 6, dpi = 300)
+ggsave("daily_cases.jpg", plot3, width = 10, height = 6, dpi = 300)
+ggsave("recovery_vs_death_rate.jpg", plot4, width = 10, height = 6, dpi = 300)
+ggsave("ARIMA_Residuals.jpg", residual_plot, width = 10, height = 6, dpi = 300)
+ggsave("ARIMA_Residuals_ACF.jpg", acf_plot, width = 10, height = 6, dpi = 300)
 
 
